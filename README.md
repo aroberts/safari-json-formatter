@@ -2,6 +2,8 @@
 
 A Safari extension which makes valid JSON documents human-readable.
 
+This is a fork of the original JSON Formatter by [Rick Fletcher](https://github.com/rfletcher/safari-json-formatter).
+
 ### Before:
 ![Before][i1]
 ### After:
