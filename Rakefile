@@ -22,4 +22,12 @@ task :build do
       FileUtils.link src, dest
     end
   end
+
+  puts <<-EOM
+You can now use the Safari Extension Builder to compress
+the bundle into a .safariextz for deployment.
+
+A reminder for when I forget how to find the builder:
+Safari > Develop > Show Extension Builder
+  EOM
 end
