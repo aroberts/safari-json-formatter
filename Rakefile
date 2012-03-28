@@ -8,8 +8,7 @@ task :build do
   FileUtils.mkdir_p build_dir
 
   assets = [
-    "etc/Info.plist",
-    "etc/Settings.plist",
+    "resources/*",
     "src/*"
   ]
 
