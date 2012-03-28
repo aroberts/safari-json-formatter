@@ -16,6 +16,10 @@ commit][2] makes a good example.
 
 #### Version History
 
+### 1.2
+* Do not re-escape escape sequences
+* Change sorted default to off
+
 ### 1.1
 * Added folding of arrays, objects and long strings
 * Added setting for auto-folding of long strings (default: on)
@@ -32,7 +36,7 @@ known example of this is kind of discrepancy is between number formats -- if the
 original JSON contains the numeric value 1e2, for example, the formatted JSON
 will display the value 100.
 
-[1]: http://github.com/rfletcher/safari-json-formatter/downloads
-[2]: http://github.com/rfletcher/safari-json-formatter/commit/HEAD.json
-[i1]: https://github.com/rfletcher/safari-json-formatter/raw/HEAD/etc/images/before.png
-[i2]: https://github.com/rfletcher/safari-json-formatter/raw/HEAD/etc/images/after.png
+[1]: http://github.com/ferrous26/safari-json-formatter/downloads
+[2]: http://github.com/ferrous26/safari-json-formatter/commit/HEAD.json
+[i1]: https://github.com/ferrous26/safari-json-formatter/raw/HEAD/illustration_before.png
+[i2]: https://github.com/ferrous26/safari-json-formatter/raw/HEAD/illustration_after.png
