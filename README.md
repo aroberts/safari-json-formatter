@@ -36,6 +36,10 @@ known example of this is kind of discrepancy is between number formats -- if the
 original JSON contains the numeric value 1e2, for example, the formatted JSON
 will display the value 100.
 
+## License
+
+This fork of JSON Formatter is released under the [MIT license](http://www.opensource.org/licenses/MIT)
+
 [1]: http://github.com/ferrous26/safari-json-formatter/downloads
 [2]: http://github.com/ferrous26/safari-json-formatter/commit/HEAD.json
 [i1]: https://github.com/ferrous26/safari-json-formatter/raw/HEAD/illustration_before.png
