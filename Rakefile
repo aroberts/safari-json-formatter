@@ -1,6 +1,6 @@
 task :default => :build
 
-desc 'Build the extension into a deployable bundle'
+desc 'Build the extension into a working bundle'
 task :build do
   build_dir = "build/JSON Formatter.safariextension"
 
