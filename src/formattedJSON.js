@@ -12,13 +12,9 @@
 
       // attempt to parse the body as JSON
       try {
-        var obj = JSON.parse( document.body.textContent
-          .split( "\\" ).join( "\\\\" ) // double-up on escape sequences
-          .split( '\\\"' ).join( "\\\\\"" ) // at this point quotes have been unescaped.  re-escape them.
-        );
-      } catch( e ) {
-        // invalid JSON :(
-        return;
+        var obj = JSON.parse(document.body.textContent);
+      } catch(e) {
+        return; // invalid JSON :(
       }
 
       this.preparePage();
