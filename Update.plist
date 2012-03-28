@@ -6,15 +6,15 @@
     <array>
       <dict>
         <key>CFBundleIdentifier</key>
-        <string>ch.flet.safari.jsonformatter</string>
+        <string>com.ferrous26.safari.jsonformatter</string>
         <key>Developer Identifier</key>
-        <string>7X732ETE87</string>
+        <string>D32HEPPP39</string>
         <key>CFBundleVersion</key>
         <string>6</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.1</string>
+        <string>1.2</string>
         <key>URL</key>
-        <string>http://github.com/downloads/rfletcher/safari-json-formatter/JSON_Formatter-1.1.safariextz</string>
+        <string>http://github.com/downloads/ferrous26/safari-json-formatter/JSON_Formatter-1.2.safariextz</string>
       </dict>
     </array>
   </dict>

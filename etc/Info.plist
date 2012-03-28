@@ -3,15 +3,15 @@
 <plist version="1.0">
   <dict>
     <key>Author</key>
-    <string>Rick Fletcher</string>
+    <string>Rick Fletcher and Mark Rada</string>
     <key>CFBundleDisplayName</key>
     <string>JSON Formatter</string>
     <key>CFBundleIdentifier</key>
-    <string>ch.flet.safari.jsonformatter</string>
+    <string>com.ferrous26.safari.jsonformatter</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.1</string>
+    <string>1.2</string>
     <key>CFBundleVersion</key>
     <string>6</string>
     <key>Chrome</key>
@@ -44,8 +44,8 @@
       </dict>
     </dict>
     <key>Update Manifest URL</key>
-    <string>http://github.com/rfletcher/safari-json-formatter/raw/latest/Update.plist</string>
+    <string>http://github.com/ferrous26/safari-json-formatter/raw/latest/Update.plist</string>
     <key>Website</key>
-    <string>http://github.com/rfletcher/safari-json-formatter</string>
+    <string>http://github.com/ferrous26/safari-json-formatter</string>
   </dict>
 </plist>
