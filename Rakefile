@@ -10,7 +10,6 @@ task :build do
   assets = [
     "etc/Info.plist",
     "etc/Settings.plist",
-    "etc/images/*",
     "src/*"
   ]
 
