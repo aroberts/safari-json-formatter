@@ -47,11 +47,7 @@
     }
 
     #toolbar {
-      background: -webkit-gradient( linear, 0 0, 0 100%, from(#f4f4f4), to(#bebebe) );
-      border: 1px solid #8c8c8c;
-      border-radius: 5px;
       float: right;
-      font-family: "lucida grande", sans-serif;
       overflow: hidden;
       font-size: 0;
       padding: 0;
@@ -62,9 +58,20 @@
       -webkit-user-select: none;
       z-index: 9999;
     }
-    #toolbar:active {
+
+    #toolbar li {
+      background: -webkit-gradient( linear, 0 0, 0 100%, from(#f4f4f4), to(#bebebe) );
+      border: 1px solid #8c8c8c;
+      border-radius: 5px;
+      font-family: "lucida grande", sans-serif;
+      z-index: 9999;
+      margin-right: 3px;
+    }
+
+    #toolbar li:active {
       background: -webkit-gradient( linear, 0 0, 0 100%, from(#bebebe), to(#f4f4f4) );
     }
+
     #toolbar li {
       color: #3f3f3f;
       cursor: pointer;
@@ -152,6 +159,8 @@
 </head>
 <body>
   <ul id="toolbar">
+    <li>Collapse All</li>
+    <li>Expand All</li>
     <li>Toggle Formatting</li>
   </ul>
 </body>
