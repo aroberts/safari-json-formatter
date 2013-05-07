@@ -45,7 +45,7 @@ will display the value 100.
 
 This fork of JSON Formatter is released under the [MIT license](http://www.opensource.org/licenses/MIT)
 
-[1]: http://github.com/aroberts/safari-json-formatter/downloads
-[2]: http://github.com/aroberts/safari-json-formatter/commit/HEAD.json
+[1]: https://github.com/aroberts/safari-json-formatter/raw/downloads/downloads/JSON%20Formatter.safariextz
+[2]: https://api.github.com/repos/aroberts/safari-json-formatter/commits/HEAD
 [i1]: https://github.com/aroberts/safari-json-formatter/raw/HEAD/illustration_before.png
 [i2]: https://github.com/aroberts/safari-json-formatter/raw/HEAD/illustration_after.png
