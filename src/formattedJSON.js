@@ -26,8 +26,8 @@
           settings = data.settings;
 
           formatJSON.addStyle( data.css );
-          formatJSON.addToolbar( data.toolbar );
           formatJSON.renderRoot( obj );
+          formatJSON.addToolbar( data.toolbar );
           formatJSON.handleEvents();
         }
       }, false );
@@ -89,6 +89,28 @@
       el.className = class_names.join( " " );
     },
 
+    _addClass: function( el, class_name ) {
+      var class_names = el.className.split( " " );
+      if( class_names.indexOf( class_name ) < 0 ) {
+        class_names.push( class_name );
+      }
+
+      el.className = class_names.join( " " );
+    },
+
+    _removeClass: function( el, class_name ) {
+      var class_names = el.className.split( " " );
+      if( class_names.indexOf( class_name ) >= 0 ) {
+        class_names = class_names.filter( function( val ) {
+          return val.toLowerCase() !== class_name.toLowerCase();
+        } );
+      }
+
+      el.className = class_names.join( " " );
+    },
+
+
+
     /**
      * a slightly more informative "typeof"
      *  _typeof( [] ) => "array"
@@ -122,11 +144,29 @@
       var toolbar = this._html( html );
       document.body.insertBefore( toolbar, document.body.firstChild );
 
-      var toggle = document.getElementById( "toolbar" ).getElementsByTagName( "li" )[0];
+      var toggle = document.getElementById( "toggle" );
 
       toggle.addEventListener( "click", function() {
         formatJSON._toggleClass( document.body, "before" );
       } );
+      var expand = document.getElementById( "expand_all" );
+
+      expand.addEventListener( "click", function() {
+        var elems = document.querySelectorAll( ".collapsible" );
+        Array.prototype.forEach.call( elems, function( el ) {
+          formatJSON._removeClass( el, "closed" );
+        } );
+      } );
+
+      var collapse = document.getElementById( "collapse_all" );
+
+      collapse.addEventListener( "click", function() {
+        var elems = document.querySelectorAll( ".collapsible" );
+        Array.prototype.forEach.call( elems, function( el ) {
+          formatJSON._addClass( el, "closed" );
+        } );
+      } );
+
     },
 
     /**

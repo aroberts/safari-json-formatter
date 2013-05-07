@@ -19,6 +19,7 @@ commit][2] makes a good example.
 #### Version History
 ### 1.3
 * Change sorted default back to on
+* Added 'Expand All' and 'Collapse All' buttons
 
 ### 1.2
 * Do not re-escape escape sequences
