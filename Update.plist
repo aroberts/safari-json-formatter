@@ -4,17 +4,16 @@
   <dict>
     <key>Extension Updates</key>
     <array>
-      <dict>
-        <key>CFBundleIdentifier</key>
-        <string>com.throwspace.jsonformatter</string>
+      <dict><key>CFBundleIdentifier</key>
+        <string>com.aroberts.safari.jsonformatter</string>
         <key>Developer Identifier</key>
         <string>22CU63GFXN</string>
         <key>CFBundleVersion</key>
-        <string>7</string>
+        <string>8</string>
         <key>CFBundleShortVersionString</key>
-        <string>1.1.1</string>
+        <string>1.3</string>
         <key>URL</key>
-        <string>http://github.com/downloads/stmontgomery/safari-json-formatter/JSON_Formatter-1.1.1.safariextz</string>
+        <string>http://github.com/downloads/aroberts/safari-json-formatter/JSON_Formatter-1.3.safariextz</string>
       </dict>
     </array>
   </dict>
