@@ -7,13 +7,13 @@
     <key>CFBundleDisplayName</key>
     <string>JSON Formatter</string>
     <key>CFBundleIdentifier</key>
-    <string>ch.flet.safari.jsonformatter</string>
+    <string>com.throwspace.jsonformatter</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>1.1</string>
+    <string>1.1.1</string>
     <key>CFBundleVersion</key>
-    <string>6</string>
+    <string>7</string>
     <key>Chrome</key>
     <dict>
       <key>Global Page</key>
@@ -44,8 +44,8 @@
       </dict>
     </dict>
     <key>Update Manifest URL</key>
-    <string>http://github.com/rfletcher/safari-json-formatter/raw/latest/Update.plist</string>
+    <string>http://github.com/stmontgomery/safari-json-formatter/raw/latest/Update.plist</string>
     <key>Website</key>
-    <string>http://github.com/rfletcher/safari-json-formatter</string>
+    <string>http://github.com/stmontgomery/safari-json-formatter</string>
   </dict>
 </plist>
