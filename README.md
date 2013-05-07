@@ -2,7 +2,7 @@
 
 A Safari extension which makes valid JSON documents human-readable.
 
-This is a fork of the original JSON Formatter by [Rick Fletcher](https://github.com/rfletcher/safari-json-formatter).
+This is a fork of the original JSON Formatter by [Rick Fletcher](https://github.com/rfletcher/safari-json-formatter), and it includes commits from several other forks of the same.  Check the commit logs for details.
 
 ### Before:
 ![Before][i1]
@@ -17,6 +17,8 @@ Once installed, load any valid JSON document. [This project's most recent
 commit][2] makes a good example.
 
 #### Version History
+### 1.3
+* Change sorted default back to on
 
 ### 1.2
 * Do not re-escape escape sequences
@@ -42,7 +44,7 @@ will display the value 100.
 
 This fork of JSON Formatter is released under the [MIT license](http://www.opensource.org/licenses/MIT)
 
-[1]: http://github.com/ferrous26/safari-json-formatter/downloads
-[2]: http://github.com/ferrous26/safari-json-formatter/commit/HEAD.json
-[i1]: https://github.com/ferrous26/safari-json-formatter/raw/HEAD/illustration_before.png
-[i2]: https://github.com/ferrous26/safari-json-formatter/raw/HEAD/illustration_after.png
+[1]: http://github.com/aroberts/safari-json-formatter/downloads
+[2]: http://github.com/aroberts/safari-json-formatter/commit/HEAD.json
+[i1]: https://github.com/aroberts/safari-json-formatter/raw/HEAD/illustration_before.png
+[i2]: https://github.com/aroberts/safari-json-formatter/raw/HEAD/illustration_after.png
