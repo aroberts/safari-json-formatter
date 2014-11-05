@@ -10,7 +10,12 @@ This is a fork of the original JSON Formatter by [Rick Fletcher](https://github.
 ![After][i2]
 
 ## Installation
-[Download the extension][1] and open it with Safari 5.
+[Download the extension][1] and open it with Safari 5+.
+
+## Supported versions of Safari
+
+* 5
+* 7.1
 
 ### Usage
 Once installed, load any valid JSON document. [This project's most recent
